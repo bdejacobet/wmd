@@ -18,6 +18,10 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
+        "ornicar/gravatar-bundle": "dev-master",
+        "sonata-project/intl-bundle": "2.1.*@dev",
+        "pagerfanta/pagerfanta": "1.0.*@dev",
+        "white-october/pagerfanta-bundle": "1.0.*@dev",
         "kriswallsmith/assetic": "1.1.*@dev"
     },
     "scripts": {
