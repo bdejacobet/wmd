@@ -1,5 +1,5 @@
 wmd_watch_my_desk:
-    resource: "@wmdWatchMyDeskBundle/Controller/"
+    resource: "@WmdWatchMyDeskBundle/Controller/"
     type:     annotation
     prefix:   /
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace wmd\WatchMyDeskBundle\Tests\Controller;
+namespace Wmd\WatchMyDeskBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

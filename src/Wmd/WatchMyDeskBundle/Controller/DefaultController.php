@@ -1,6 +1,6 @@
 <?php
 
-namespace wmd\WatchMyDeskBundle\Controller;
+namespace Wmd\WatchMyDeskBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

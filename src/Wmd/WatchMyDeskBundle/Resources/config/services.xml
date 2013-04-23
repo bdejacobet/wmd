@@ -6,7 +6,7 @@
 
     <!--
     <parameters>
-        <parameter key="wmd_watch_my_desk.example.class">wmd\WatchMyDeskBundle\Example</parameter>
+        <parameter key="wmd_watch_my_desk.example.class">Wmd\WatchMyDeskBundle\Example</parameter>
     </parameters>
 
     <services>

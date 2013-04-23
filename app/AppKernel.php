@@ -22,7 +22,7 @@ class AppKernel extends Kernel
             new Sonata\IntlBundle\SonataIntlBundle(),
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
             new Ornicar\GravatarBundle\OrnicarGravatarBundle(),
-            new wmd\WatchMyDeskBundle\wmdWatchMyDeskBundle(),
+            new Wmd\WatchMyDeskBundle\WmdWatchMyDeskBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

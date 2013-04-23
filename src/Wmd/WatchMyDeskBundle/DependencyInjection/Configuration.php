@@ -1,6 +1,6 @@
 <?php
 
-namespace wmd\WatchMyDeskBundle\DependencyInjection;
+namespace Wmd\WatchMyDeskBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
