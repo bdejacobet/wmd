@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Desk
  *
  * @ORM\Table(name="desk")
- * @ORM\Entity(repositoryClass="Wmd\WatchMyDeskBundle\Entity\DeskRepository")
+ * @ORM\Entity(repositoryClass="Wmd\WatchMyDeskBundle\Repository\DeskRepository")
  */
 class Desk
 {
@@ -81,7 +81,7 @@ class Desk
      * @ORM\OneToMany(targetEntity="DeskComment", mappedBy="desk", cascade={"remove", "persist"})
      */
     protected $comments;
-    
+        
     /**
      * constructeur
      */

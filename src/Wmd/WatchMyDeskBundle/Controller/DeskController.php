@@ -13,11 +13,15 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 class DeskController extends Controller
 {
     /**
-    * @Route("/show/{deskId}", name="desk_show")
-    * @Template()
-    */
+     * @Route("/show/{deskId}", name="desk_show")
+     * @Template()
+     */
     public function showAction($deskId)
     {
-        return array('id' => $deskId);
+        if (!$desk = $this->get('wmd.desk_manager')->loadDesk($deskId)) {
+            throw new NotFoundHttpException($this->get('translator')->trans('This desk does not exist.'));
+        }
+
+        return array('desk' => $desk);
     }
 }
